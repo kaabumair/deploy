@@ -24,7 +24,7 @@ jobs:
        
        
      - name: Deploy website on surge
-       run:  surge ./ adamant-grass.surge.sh --token ${{secrets.UMAIR_SECRET_UMAIR}}
+       run:  surge ./ optimal-face.surge.sh --token ${{secrets.UMAIR_SECRET_UMAIR}}
         
   
       
