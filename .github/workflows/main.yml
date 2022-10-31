@@ -17,8 +17,7 @@ jobs:
      - name: check commands
        run:  pwd
        
-     
-       
+          
      - name: Install surge
        run:  npm install -g surge
        
