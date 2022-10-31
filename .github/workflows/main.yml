@@ -24,7 +24,7 @@ jobs:
        
        
      - name: Deploy website on surge
-       run:  surge ./ optimal-face.surge.sh --token ${{secrets.UMAIR_SECRET_UMAIR}}
+       run:  surge ./ immense-mist.surge.sh --token ${{secrets.UMAIR_SECRET_UMAIR}}
         
   
       
